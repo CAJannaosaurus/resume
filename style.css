@@ -44,6 +44,28 @@ ul {
     margin-left: 25px;
 }
 
+.titleCol {
+    height: 450px;
+    margin-left: 150px;
+}
+
+.title {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+    background: rgb(255, 87, 34);
+    align-content: center;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
 /*************   MAIN STYLES   **********************
 *********************************************************/
 
@@ -279,39 +301,38 @@ h2 {
     margin: 0px;
 }
 
-.titleCol {
-    display: flex;
-    position: relative;
-    height: 450px;
-    /*  Adjust height of the example */
-    color: white;
-    right: -5%;
+.title-table {
+    border: 0;
+    width: 100%;
+    padding-top: 40px;
 }
 
-.col {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    line-height: 1.3em;
-    font-size: 1.2em;
-    font-weight: 400;
-    padding-top: 130px;
-    text-align: left;
+.title-table-header {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
-.col h1 {
-    z-index: 1;
-    text-align: center;
-    background: rgb(255, 87, 34);
-    line-height: 0.2em;
-    align-content: center;
-    text-transform: uppercase;
-    font-size: 1.8em;
-    letter-spacing: 0.5em;
-    font-weight: 300;
-    padding: 0;
+.title-table-date {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: right;
 }
 
+.title-table-subheader {
+    font-size: 1.3em;
+}
+
+.modules-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 300px;
+    vertical-align: top;
+}
+
+.modules-text {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
 
 .aboutCol {
     align-content: center;
@@ -511,7 +532,7 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
     line-height: 1.3em;
     font-weight: 500;
     font-size: 1.3em;
-    width: auto;
+    width: 100%;
     text-align: left;
     z-index: 1;
 }
