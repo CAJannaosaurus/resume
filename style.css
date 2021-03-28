@@ -46,11 +46,12 @@ ul {
 
 .titleCol {
     height: 450px;
-    margin-left: 150px;
+    width: 100%;
+    margin-right: 450px;
 }
 
 .title {
-    margin-top: 200px;
+    margin-top: 180px;
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -608,6 +609,9 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
         left: 5vw;
         z-index: 1;
     }
+    .titleCol {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -730,10 +734,6 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
         text-align: left;
         font-size: 16px;
     }
-    .titleCol {
-        right: 0;
-        left: 3%;
-    }
     .col h1 {
         font-size: 1.3em;
     }
@@ -760,10 +760,6 @@ the texts e.g. ' < CODE > 'This shanges on its parent block shrinking to<CODE>*/
 }
 
 @media screen and (max-width: 400px) {
-    .titleCol {
-        position: relative;
-        left: -60px;
-    }
     .col {
         padding-top: 70px;
     }
